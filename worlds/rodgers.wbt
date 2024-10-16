@@ -1,0 +1,3629 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Pavement.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/CeilingLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/PaintedWood.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/WoodenChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/RoundTable.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/VarnishedPine.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Monitor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/ComputerMouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Keyboard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/living_room_furniture/protos/Sofa.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/FlowerPot.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Window.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/school_furniture/protos/Blackboard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bathroom/protos/Toilet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bathroom/protos/BathroomSink.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/mirror/protos/Mirror.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/drinks/protos/WaterBottle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/WallPlug.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/FloorLight.proto"
+
+WorldInfo {
+  info [
+    "Sample of how the indoor objects can be placed"
+  ]
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation 0.021977921373577566 0.9977866570922488 -0.06275952438293486 0.7110074835146395
+  position -60.96198246806908 -34.68506628582255 49.927794227706826
+  exposure 0.5
+}
+CeilingLight {
+  translation -4.6441 -2.2406 4.18
+  name "ceiling light 1"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -4.6441 -7.5906 4.18
+  name "ceiling light 1(3)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -4.6441 -13.2306 4.18
+  name "ceiling light 1(6)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -4.6441 -19.6706 4.18
+  name "ceiling light 1(9)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -4.6441 -26.3606 4.18
+  name "ceiling light 1(12)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -4.6441 -33.3806 4.18
+  name "ceiling light 1(15)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -2.2741 -33.3806 4.18
+  name "ceiling light 1(30)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -2.2741 -38.6206 4.18
+  name "ceiling light 1(31)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -2.2741 -63.4906 4.18
+  name "ceiling light 1(32)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -2.2741 -58.7006 4.18
+  name "ceiling light 1(33)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -1.0041 -68.9306 4.18
+  name "ceiling light 1(34)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -4.6441 -47.4206 4.18
+  name "ceiling light 1(21)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -4.6441 -51.6506 4.18
+  name "ceiling light 1(26)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -7.4141 -58.7406 4.18
+  name "ceiling light 1(35)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -7.4141 -65.5306 4.18
+  name "ceiling light 1(36)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -7.4141 -72.5506 4.18
+  name "ceiling light 1(37)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -7.4141 -79.4906 4.18
+  name "ceiling light 1(40)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -12.6141 -79.4906 4.18
+  name "ceiling light 1(42)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -12.6141 -86.3506 4.18
+  name "ceiling light 1(43)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -7.4841 -86.3506 4.18
+  name "ceiling light 1(44)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -3.4141 -86.3506 4.18
+  name "ceiling light 1(45)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -3.4441 -79.4906 4.18
+  name "ceiling light 1(41)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -12.3541 -72.5506 4.18
+  name "ceiling light 1(38)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -18.0541 -72.5506 4.18
+  name "ceiling light 1(39)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -4.6441 -40.3906 4.18
+  name "ceiling light 1(18)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.7441 -19.6706 4.18
+  name "ceiling light 1(10)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.7441 -26.4306 4.18
+  name "ceiling light 1(13)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.7441 -33.4906 4.18
+  name "ceiling light 1(16)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.7441 -47.8306 4.18
+  name "ceiling light 1(22)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.7441 -52.1206 4.18
+  name "ceiling light 1(25)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.7441 -40.6306 4.18
+  name "ceiling light 1(19)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -17.8641 -19.6706 4.18
+  name "ceiling light 1(11)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -17.8641 -26.5206 4.18
+  name "ceiling light 1(14)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -17.8641 -33.6006 4.18
+  name "ceiling light 1(17)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -17.8641 -47.6806 4.18
+  name "ceiling light 1(23)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -17.8641 -51.9006 4.18
+  name "ceiling light 1(24)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -18.2541 -58.2406 4.18
+  name "ceiling light 1(27)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -18.2541 -61.5606 4.18
+  name "ceiling light 1(28)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -18.2541 -65.1106 4.18
+  name "ceiling light 1(29)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -19.0841 -42.7006 4.18
+  name "ceiling light 1(20)"
+  pointLightIntensity 6
+}
+CeilingLight {
+  translation -11.9541 -13.2306 4.18
+  name "ceiling light 1(7)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -17.3741 -13.2306 4.18
+  name "ceiling light 1(8)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.5141 -7.4006 4.18
+  name "ceiling light 1(4)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -11.4441 -2.2406 4.18
+  name "ceiling light 1(1)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -17.1841 -2.2406 4.18
+  name "ceiling light 1(2)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -17.1841 -7.6006 4.18
+  name "ceiling light 1(5)"
+  pointLightIntensity 12
+}
+CeilingLight {
+  translation -19.4411 -36.5332 5
+  name "ceiling light 2(6)"
+  pointLightIntensity 6
+}
+DEF FLOOR Solid {
+  translation -9.9 -14.8 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 22.6 32.6
+      }
+    }
+  ]
+  name "floor"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+DEF FLOOR Solid {
+  translation -9.9 -54.6 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 22.5 47
+      }
+    }
+  ]
+  name "floor2"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+FloorLight {
+  translation -11.59 -67.1 0
+  pointLightIntensity 6
+}
+FloorLight {
+  translation -11.59 -58.36 0
+  name "floor light(1)"
+  pointLightIntensity 6
+}
+DEF FLOOR Solid {
+  translation -7.8 -81 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 18.5 6
+      }
+    }
+  ]
+  name "rightside floor"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+DEF FLOOR Solid {
+  translation -5.9 -86.93 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 14.5 5.86
+      }
+    }
+  ]
+  name "rightside floor 2"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+Chair {
+  translation -10.64 -58.84 0
+  name "circulationdesk chair 1"
+}
+Chair {
+  translation -10.64 -61.07 0
+  name "circulationdesk chair 2"
+}
+PottedTree {
+  translation -10.73 -67.09 0
+  name "circulationdesk potted tree 1"
+}
+FlowerPot {
+  translation -10.01 -57.44 0.79
+  name "circulationdesk flower pot 1"
+}
+DEF FLOOR Solid {
+  translation -0.6 -35.5 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 4 8
+      }
+    }
+  ]
+  name "girlbathroomfloor"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+BathroomSink {
+  translation -2.49 -32.67 1.07
+}
+BathroomSink {
+  translation -2.49 -33.35 1.07
+  name "sink(1)"
+}
+BathroomSink {
+  translation -2.49 -34.02 1.07
+  name "sink(2)"
+}
+BathroomSink {
+  translation -2.49 -63.42 1.07
+  name "sink(3)"
+}
+BathroomSink {
+  translation -2.49 -62.75 1.07
+  name "sink(4)"
+}
+BathroomSink {
+  translation -2.49 -62.09 1.07
+  name "sink(5)"
+}
+DEF FLOOR Solid {
+  translation -0.6 -61.4 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 4 8
+      }
+    }
+  ]
+  name "menbathroomfloor"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+DEF FLOOR Solid {
+  translation -19 -42.4 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 4.3 8
+      }
+    }
+  ]
+  name "123studyroom floor"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+DEF FLOOR Solid {
+  translation -19 -42.4 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 4.3 8
+      }
+    }
+  ]
+  name "123studyroom floor(1)"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+DEF FLOOR Solid {
+  translation -0.6 -69.2 0.05
+  rotation 0 0.7071067811865475 0.7071067811865475 0
+  children [
+    Shape {
+      appearance Pavement {
+        type "slate"
+        textureTransform TextureTransform {
+          scale 12.8 30
+        }
+      }
+      geometry DEF FLOOR_PLANE Plane {
+        size 4 8
+      }
+    }
+  ]
+  name "103studyroom floor"
+  boundingObject USE FLOOR_PLANE
+  locked TRUE
+}
+Door {
+  hidden translation_5 0.0012486525331454057 7.792689915070428e-05 4.440892098500626e-16
+  hidden rotation_5 0 0 -1 0.0005234360684711209
+  translation -18.39 -5.93 0
+  name "studyroom1 door"
+  position -0.0005234360686171323
+}
+Door {
+  hidden translation_5 0.0012486525331452114 7.792689915064877e-05 4.440892098500626e-16
+  hidden rotation_5 0 0 -1 0.0005234360684711209
+  translation -18.39 -11.03 0
+  name "studyroom2 door"
+  position -0.0005234360686167971
+}
+Door {
+  hidden translation_5 0.001248652533145378 7.792689915075979e-05 4.440892098500626e-16
+  hidden rotation_5 0 0 -1 0.0005234360684711209
+  translation -18.39 -16.19 0
+  name "studyroom3 door"
+  position -0.0005234360686170989
+}
+Door {
+  hidden translation_5 0.001248652533145489 7.792689915087081e-05 4.440892098500626e-16
+  hidden rotation_5 0 0 -1 0.0005234360684711209
+  translation -18.39 -21.34 0
+  name "studyroom4 door"
+  position -0.0005234360686172398
+}
+Door {
+  hidden translation_5 0.0012486525331457943 7.792689915092632e-05 4.440892098500626e-16
+  hidden rotation_5 0 0 -1 0.0005234360684711209
+  translation -18.39 -26.51 0
+  name "studyroom5 door"
+  position -0.0005234360686178276
+}
+Wall {
+  translation -0.55 -31.55 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "highcomputer_wall"
+  size 0.1 4 2.4
+}
+Wall {
+  translation -18.97 -38.36 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "125studyroom wall 4"
+  size 0.1 4.3 2.4
+}
+Wall {
+  translation -11.78 -38.87 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "125studyroom wall 4(1)"
+  size 0.1 3 2.4
+}
+Wall {
+  translation -11.78 -42.75 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "125studyroom wall 4(2)"
+  size 0.1 3 2.4
+}
+Wall {
+  translation -0.550082 -57.36 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "highcomputer_wall(1)"
+  size 0.1 4 2.4
+}
+Wall {
+  translation -0.550024 -39.44 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroomwall 3"
+  size 0.1 4 2.4
+}
+Wall {
+  translation -18.96 -46.29 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "123studyroom wall 3"
+  size 0.1 4 2.4
+}
+Wall {
+  translation -0.550105 -65.25 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroomwall 3(1)"
+  size 0.1 4 2.4
+}
+Wall {
+  translation -19.0801 -78.05 0.1
+  rotation 9.58976e-09 -9.58979e-09 1 -1.5707953071795862
+  name "103studyroom wall 4"
+  size 0.1 4 2.4
+}
+Wall {
+  translation -15.1601 -84.01 0.1
+  rotation 9.58976e-09 -9.58979e-09 1 -1.5707953071795862
+  name "103studyroom wall 4(5)"
+  size 0.1 4 2.4
+}
+Wall {
+  translation -8.1701 -89.91 0.1
+  rotation 9.58976e-09 -9.58979e-09 1 -1.5707953071795862
+  name "103studyroom wall 4(7)"
+  size 0.1 10 2.4
+}
+Wall {
+  translation -17.1001 -80.97 0.1
+  rotation 9.58976e-09 -9.58979e-09 1 -3.141592653589793
+  name "103studyroom wall 4(4)"
+  size 0.1 6 2.4
+}
+Wall {
+  translation -13.2201 -86.98 0.1
+  rotation 9.58976e-09 -9.58979e-09 1 -3.141592653589793
+  name "103studyroom wall 4(6)"
+  size 0.1 6 2.4
+}
+Wall {
+  translation -0.550125 -73.22 0.05
+  rotation 0 0 1 -1.5707996938995747
+  name "103studyroom wall 4(3)"
+  size 0.1 4 2.4
+}
+Wall {
+  translation 0.359817 -89.71 0.01
+  rotation 0 0 1 -1.5707996938995747
+  name "103studyroom wall 4(9)"
+  size 0.1 2.1 2.5
+}
+Wall {
+  translation -2.4502 -89.9 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "103studyroom wall 4(8)"
+  size 0.1 1.5 2.5
+}
+Wall {
+  translation 0.4 -32.66 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1"
+  size 0.1 2 2.4
+}
+Wall {
+  translation 0.399999 -33.73 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1(1)"
+  size 0.1 2 2.4
+}
+Wall {
+  translation 0.399998 -34.79 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1(2)"
+  size 0.1 2 2.4
+}
+Wall {
+  translation 0.399996 -35.89 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1(3)"
+  size 0.1 2 2.4
+}
+Wall {
+  translation 0.399924 -58.44 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1(4)"
+  size 0.1 2 2.4
+}
+Wall {
+  translation 0.399923 -59.5 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1(5)"
+  size 0.1 2 2.4
+}
+Wall {
+  translation 0.399922 -60.59 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1(6)"
+  size 0.1 2 2.4
+}
+Wall {
+  translation 0.399919 -61.69 0.1
+  rotation 0 0 1 -1.5707996938995747
+  name "fbathroom toilet wall 1(7)"
+  size 0.1 2 2.4
+}
+Wall {
+  translation -2.53001 -33.75 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroomwall 1"
+  size 0.1 4.5 2.4
+}
+Wall {
+  translation -16.88 -40.65 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "123studyroom wall 1"
+  size 0.1 4.5 2.4
+}
+Wall {
+  translation -16.87 -36.4 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "125studyroom wall 3"
+  size 0.1 3.8 2.4
+}
+Wall {
+  translation -13.24 -40.82 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "125studyroom wall 3(1)"
+  size 0.1 3.8 2.4
+}
+Wall {
+  translation -10.33 -40.25 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "125studyroom wall 3(2)"
+  size 0.1 2.8 2.4
+}
+Wall {
+  translation -21.08 -36.4 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "125studyroom wall 5"
+  size 0.1 3.8 2.4
+}
+Wall {
+  translation -2.53001 -63.02 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroomwall 1(1)"
+  size 0.1 4.5 2.4
+}
+Wall {
+  translation -2.53001 -66.93 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "103studyroom wall 1"
+  size 0.1 3.3 2.4
+}
+Wall {
+  translation -2.53001 -71.38 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "103studyroom wall 2"
+  size 0.1 3.65 2.4
+}
+Wall {
+  translation -2.49001 -38.21 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroomwall 4"
+  size 0.1 2.4 2.4
+}
+Wall {
+  translation -16.9 -45.14 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "123studyroom wall 2"
+  size 0.1 2.4 2.4
+}
+Wall {
+  translation -17.26 -34.48 0.1
+  rotation 0 0 -1 1.5708
+  name "125studyroom wall 2"
+  size 0.1 0.9 2.4
+}
+Wall {
+  translation -19.84 -34.48 0.1
+  rotation 0 0 1 1.570795613280012
+  name "125studyroom wall 1"
+  size 0.1 2.4 2.4
+}
+Wall {
+  translation -2.49001 -58.59 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroomwall 4(1)"
+  size 0.1 2.4 2.4
+}
+Wall {
+  translation -19.82 -55.12 0.1
+  rotation 0 0 1 1.570795613280012
+  name "scholarstation wall 1"
+  size 0.1 2.4 2.4
+}
+Wall {
+  translation -17.72 -67.97 0.1
+  rotation 0 0 1 1.570795613280012
+  name "scholarstation wall 4"
+  size 0.1 6.6 2.4
+}
+Wall {
+  translation -15.54 -55.12 0.1
+  rotation 0 0 1 1.570795613280012
+  name "scholarstation wall 1(1)"
+  size 0.1 2.4 2.4
+}
+Wall {
+  translation 1.35999 -35.51 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroomwall 2"
+  size 0.1 8 2.4
+}
+Wall {
+  translation -21.06 -42.4 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "123studyroom wall 4"
+  size 0.1 8 2.4
+}
+Wall {
+  translation 1.35999 -61.26 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroomwall 2(1)"
+  size 0.1 8 2.4
+}
+Wall {
+  translation 1.35999 -69.21 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "103studyroom wall 3"
+  size 0.1 8 2.4
+}
+Wall {
+  translation 1.35999 -42.5 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "entrance wall 1"
+  size 0.1 6 2.4
+}
+Wall {
+  translation 1.35999 -54.41 0.1
+  rotation 0 0 1 -3.141592653589793
+  name "entrance wall 2"
+  size 0.1 6 2.4
+}
+FlowerPot {
+  translation -20.56 0.78 0
+}
+Chair {
+  translation 0.619988 -30.37 0
+  rotation 0 0 1 -1.5707996938995747
+  name "high chair 1"
+}
+Chair {
+  translation -1.43001 -30.37 0
+  rotation 0 0 1 -1.5707996938995747
+  name "high chair 1(1)"
+}
+Sofa {
+  translation 0 -18.22 0
+  rotation 0 0 1 -1.5707996938995747
+  name "sofa 1"
+}
+Sofa {
+  translation -1.25709e-05 -22.02 0
+  rotation 0 0 1 1.5707950010791611
+  name "sofa 2"
+}
+Keyboard {
+  translation -3.89174 -8.24444 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable1 keyboard 1"
+}
+Keyboard {
+  translation -2.88765 -9.24853 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable4 keyboard 1"
+}
+Keyboard {
+  translation -4.21702 -10.5779 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable5 keyboard 1"
+}
+Keyboard {
+  translation -5.37666 -11.7376 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 1"
+}
+Keyboard {
+  translation -3.48868 -9.84956 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable4 keyboard 2"
+}
+Keyboard {
+  translation -4.71196 -11.0731 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable5 keyboard 2"
+}
+Keyboard {
+  translation -5.9918 -12.353 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 2"
+}
+Keyboard {
+  translation -8.32021 -17.8271 0.8
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 keyboard 2(1)"
+}
+Keyboard {
+  translation -7.97203 -18.6689 0.8
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 keyboard 2(3)"
+}
+Keyboard {
+  translation -15.5997 -56.9557 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(25)"
+}
+Keyboard {
+  translation -19.0397 -56.9557 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(27)"
+}
+Keyboard {
+  translation -19.8397 -56.9557 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(28)"
+}
+Keyboard {
+  translation -16.4797 -56.9557 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(26)"
+}
+Keyboard {
+  translation -16.4797 -59.0857 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(29)"
+}
+Keyboard {
+  translation -15.4597 -59.0857 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(30)"
+}
+Keyboard {
+  translation -15.4597 -61.2557 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(33)"
+}
+Keyboard {
+  translation -15.4597 -63.6157 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(37)"
+}
+Keyboard {
+  translation -15.4597 -66.0957 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(41)"
+}
+Keyboard {
+  translation -16.4997 -66.0957 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(42)"
+}
+Keyboard {
+  translation -18.9897 -63.7957 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(39)"
+}
+Keyboard {
+  translation -18.9897 -66.2757 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(43)"
+}
+Keyboard {
+  translation -19.9897 -63.7957 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(40)"
+}
+Keyboard {
+  translation -19.9897 -66.2357 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(44)"
+}
+Keyboard {
+  translation -16.3997 -63.6157 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(38)"
+}
+Keyboard {
+  translation -18.9597 -61.2557 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(35)"
+}
+Keyboard {
+  translation -19.8197 -61.2557 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(36)"
+}
+Keyboard {
+  translation -16.4997 -61.2457 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(34)"
+}
+Keyboard {
+  translation -18.9197 -59.0857 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(31)"
+}
+Keyboard {
+  translation -19.7997 -59.0857 0.8
+  rotation 0 0 1 -1.5708003061004252
+  name "computertable6 keyboard 2(32)"
+}
+Keyboard {
+  translation -7.58169 -19.6112 0.8
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 keyboard 2(10)"
+}
+Keyboard {
+  translation -7.24877 -20.4151 0.8
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 keyboard 2(11)"
+}
+Keyboard {
+  translation -6.90439 -21.2467 0.8
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 keyboard 2(12)"
+}
+Keyboard {
+  translation -6.65948 -21.838 0.8
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 keyboard 2(13)"
+}
+Keyboard {
+  translation -6.59291 -18.0005 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 keyboard 2(4)"
+}
+Keyboard {
+  translation -6.21402 -18.9146 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 keyboard 2(6)"
+}
+Keyboard {
+  translation -5.91549 -19.6348 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 keyboard 2(7)"
+}
+Keyboard {
+  translation -5.59782 -20.401 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 keyboard 2(8)"
+}
+Keyboard {
+  translation -5.23811 -21.2692 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 keyboard 2(9)"
+}
+Keyboard {
+  translation -6.93733 -17.169 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 keyboard 2(5)"
+}
+Keyboard {
+  translation -11.2034 -17.7337 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 2(2)"
+}
+Keyboard {
+  translation -11.7195 -18.2498 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 2(20)"
+}
+Keyboard {
+  translation -12.5752 -19.1055 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 2(21)"
+}
+Keyboard {
+  translation -12.9644 -19.4947 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 2(22)"
+}
+Keyboard {
+  translation -13.7916 -20.3219 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 2(23)"
+}
+Keyboard {
+  translation -14.3361 -20.8664 0.8
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 keyboard 2(24)"
+}
+Keyboard {
+  translation -12.2501 -16.5882 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 keyboard 2(14)"
+}
+Keyboard {
+  translation -12.9431 -17.2812 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 keyboard 2(15)"
+}
+Keyboard {
+  translation -13.5515 -17.8896 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 keyboard 2(16)"
+}
+Keyboard {
+  translation -14.138 -18.4761 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 keyboard 2(17)"
+}
+Keyboard {
+  translation -14.9436 -19.2817 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 keyboard 2(18)"
+}
+Keyboard {
+  translation -15.4812 -19.8193 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 keyboard 2(19)"
+}
+Keyboard {
+  translation -4.49271 -8.83131 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable1 keyboard 2"
+}
+Monitor {
+  translation -4.37594 -9.11868 0.74
+  rotation 0 0 1 2.35619
+  name "computertable1 monitor 2"
+}
+Monitor {
+  translation -3.71134 -8.45408 0.75
+  rotation 0 0 1 2.35619
+  name "computertable1 monitor 1"
+}
+Monitor {
+  translation -3.02548 -9.13994 0.75
+  rotation 0 0 1 -0.7854003061004253
+  name "computertable4 monitor 1"
+}
+Monitor {
+  translation -5.54994 -11.6645 0.75
+  rotation 0 0 1 -0.7854003061004253
+  name "computertable6 monitor 1"
+}
+Monitor {
+  translation -3.61945 -9.73391 0.75
+  rotation 0 0 1 -0.7854003061004253
+  name "computertable4 monitor 2"
+}
+Monitor {
+  translation -4.82154 -10.936 0.75
+  rotation 0 0 1 -0.7854003061004253
+  name "computertable5vmonitor 2"
+}
+Monitor {
+  translation -4.34076 -10.4545 0.75
+  rotation 0 0 1 -0.7854003061004253
+  name "computertable5 monitor 1"
+}
+Monitor {
+  translation -6.12267 -12.2363 0.75
+  rotation 0 0 1 -0.7854003061004253
+  name "computertable6 monitor 2"
+}
+Table {
+  translation -3.97 -8.78 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 1"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -3.25584 -9.49416 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 4"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation 0.463289 -12.3932 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk 1"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation 0.103322 -20.0632 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk 2"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -11.5566 -40.4732 0
+  name "wall desk 2(3)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -18.4766 -40.4732 0
+  name "wall desk 2(4)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -18.4766 -44.7332 0
+  name "wall desk 2(5)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -19.4466 -37.0132 0
+  name "wall desk 2(6)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation 0.353365 -30.9632 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk 2(1)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -1.44665 -30.9732 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk 2(2)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -4.50739 -10.7457 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 5"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -5.78016 -12.0187 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 6"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -6.89059 -17.7566 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 13"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -10.354 -9.39479 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 19"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -11.0434 -7.73184 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 20"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -11.7324 -6.06886 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 21"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -6.21321 -19.3918 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 14"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -5.52818 -21.0448 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 15"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -7.8052 -18.1357 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 16"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -11.2684 -9.77475 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 22"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -11.9571 -8.11174 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 23"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -12.6464 -6.44875 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 24"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -7.12789 -19.7707 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 17"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -6.43906 -21.4323 0
+  rotation 0 0 1 -2.7488896938995744
+  name "computertable 18"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -19.3445 -57.3585 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(1)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -19.3445 -59.4585 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(7)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -19.3445 -61.6685 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(8)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -19.3445 -64.0785 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(9)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -19.3445 -66.4685 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(10)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -15.9845 -57.3585 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(2)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -15.9845 -59.4485 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(3)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -15.9845 -61.5885 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(4)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -15.9845 -63.9185 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(5)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -15.9845 -66.3685 0
+  rotation 0 0 1 1.570795613280012
+  name "computertable 18(6)"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -11.6915 -17.9303 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 10"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -12.9644 -19.2031 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 11"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -14.2305 -20.4691 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 12"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+ComputerMouse {
+  translation -3.9758856716460658 -8.50340380965064 0.7399803800030953
+  rotation -4.0213702998763975e-05 1.836602550397372e-06 -0.9999999991897425 0.09127869626202445
+  name "computertable1 mouse 1"
+}
+ComputerMouse {
+  translation -3.237685548489348 -9.384046612206701 0.7399803800030953
+  rotation -1.1889103758215409e-06 -1.8366025516474906e-06 0.9999999999976067 1.9925835228282534
+  name "computertable4 mouse 1"
+}
+ComputerMouse {
+  translation -3.958803797892089 -10.292845496318897 0.7399803800030953
+  rotation -8.60808489928493e-07 -1.8366025517171074e-06 0.9999999999979429 2.26500788339402
+  name "computertable5 mouse 1"
+}
+ComputerMouse {
+  translation -5.160529999999993 -11.959599999999993 0.7399803800030953
+  rotation -1.00896480984565e-06 -1.8366025516900671e-06 0.9999999999978045 2.13688183476725
+  name "computertable6 mouse 1"
+}
+ComputerMouse {
+  translation -5.751329999999994 -12.334899999999994 0.7399803800030953
+  rotation -1.008964809828562e-06 -1.8366025516748199e-06 0.9999999999978045 2.13688183476725
+  name "computertable6vmouse 2"
+}
+ComputerMouse {
+  translation -8.02191999999999 -17.84450000000001 0.7399803800030953
+  rotation -1.1253815156344512e-06 -1.8366025516550482e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(1)"
+}
+ComputerMouse {
+  translation -7.631439999999996 -18.610700000000012 0.7399803800030953
+  rotation -1.1253815156316177e-06 -1.8366025516469112e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(3)"
+}
+ComputerMouse {
+  translation -7.177409999999996 -19.50170000000001 0.7399803800030953
+  rotation -1.1253815156202983e-06 -1.836602551623046e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(10)"
+}
+ComputerMouse {
+  translation -7.253829999999995 -20.034200000000006 0.7399803800030953
+  rotation -1.1253815156331807e-06 -1.836602551638671e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(11)"
+}
+ComputerMouse {
+  translation -6.659049999999997 -21.201400000000014 0.7399803800030953
+  rotation -1.1253815156461165e-06 -1.8366025516243537e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(12)"
+}
+ComputerMouse {
+  translation -15.7221 -57.14509999999999 0.7399803800030953
+  rotation -1.74298682657413e-06 1.8366025517115345e-06 -0.9999999999967945 1.6230896939027757
+  name "computertable6vmouse 2(25)"
+}
+ComputerMouse {
+  translation -15.8271 -59.15239999999999 0.7399803800030953
+  rotation -1.74298682652883e-06 1.8366025516485098e-06 -0.9999999999967945 1.623089693902776
+  name "computertable6vmouse 2(29)"
+}
+ComputerMouse {
+  translation -15.8372 -61.26469999999999 0.7399803800030953
+  rotation -1.7429868265771767e-06 1.8366025517077392e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(33)"
+}
+ComputerMouse {
+  translation -15.8374 -63.768299999999996 0.7399803800030953
+  rotation -1.742986826588475e-06 1.8366025516986154e-06 -0.9999999999967945 1.6230896939027757
+  name "computertable6vmouse 2(37)"
+}
+ComputerMouse {
+  translation -15.822 -66.35219999999995 0.7399803800030953
+  rotation -1.7429868265722156e-06 1.836602551689003e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(41)"
+}
+ComputerMouse {
+  translation -16.15130000000002 -66.33479999999996 0.7399803800030953
+  rotation -1.7429868265316544e-06 1.8366025517097253e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(42)"
+}
+ComputerMouse {
+  translation -19.01570000000002 -64.04299999999996 0.7399803800030953
+  rotation -1.7429868265254852e-06 1.8366025516725801e-06 -0.9999999999967945 1.623089693902776
+  name "computertable6vmouse 2(39)"
+}
+ComputerMouse {
+  translation -19.15080000000002 -66.62959999999995 0.7399803800030953
+  rotation -1.7429868265251007e-06 1.8366025516481733e-06 -0.9999999999967945 1.623089693902776
+  name "computertable6vmouse 2(43)"
+}
+ComputerMouse {
+  translation -19.624800000000022 -64.01099999999995 0.7399803800030953
+  rotation -1.7429868265233727e-06 1.8366025517150673e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(40)"
+}
+ComputerMouse {
+  translation -19.75010000000002 -66.40779999999995 0.7399803800030953
+  rotation -1.7429868265156024e-06 1.836602551635123e-06 -0.9999999999967945 1.623089693902776
+  name "computertable6vmouse 2(44)"
+}
+ComputerMouse {
+  translation -16.12660000000002 -63.75279999999999 0.7399803800030953
+  rotation -1.7429868265233628e-06 1.836602551715052e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(38)"
+}
+ComputerMouse {
+  translation -18.56310000000002 -61.302499999999995 0.7399803800030953
+  rotation -1.7429868265647085e-06 1.836602551743183e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(35)"
+}
+ComputerMouse {
+  translation -19.57170000000002 -61.449799999999996 0.7399803800030953
+  rotation -1.7429868265163694e-06 1.83660255168396e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(36)"
+}
+ComputerMouse {
+  translation -16.12680000000002 -61.24949999999999 0.7399803800030953
+  rotation -1.7429868265716144e-06 1.8366025517295878e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(34)"
+}
+ComputerMouse {
+  translation -19.495000000000022 -59.22079999999999 0.7399803800030953
+  rotation -1.7429868265626613e-06 1.8366025517308077e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(31)"
+}
+ComputerMouse {
+  translation -19.08530000000002 -59.241899999999994 0.7399803800030953
+  rotation -1.74298682657206e-06 1.8366025516991465e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(32)"
+}
+ComputerMouse {
+  translation -16.16650000000002 -59.134299999999996 0.7399803800030953
+  rotation -1.7429868265451743e-06 1.836602551702813e-06 -0.9999999999967945 1.623089693902776
+  name "computertable6vmouse 2(30)"
+}
+ComputerMouse {
+  translation -19.15710000000002 -57.15579999999999 0.7399803800030953
+  rotation -1.7429868265248677e-06 1.8366025516136027e-06 -0.9999999999967945 1.623089693902776
+  name "computertable6vmouse 2(27)"
+}
+ComputerMouse {
+  translation -19.566700000000022 -57.13479999999999 0.7399803800030953
+  rotation -1.7429868265643191e-06 1.8366025517187673e-06 -0.9999999999967945 1.6230896939027761
+  name "computertable6vmouse 2(28)"
+}
+ComputerMouse {
+  translation -16.6907 -57.09459999999999 0.7399803800030953
+  rotation -1.986957394825602e-06 1.8366025516985872e-06 -0.9999999999963395 1.4921903061040738
+  name "computertable6vmouse 2(26)"
+}
+ComputerMouse {
+  translation -6.264029999999998 -21.976500000000016 0.7399803800030953
+  rotation -1.1253815156652055e-06 -1.8366025517118793e-06 0.9999999999976802 2.0421064576642465
+  name "computertable6vmouse 2(13)"
+}
+ComputerMouse {
+  translation -6.704799999999996 -18.13930000000001 0.7399803800030953
+  rotation -1.125381515672334e-06 -1.836602551657897e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(4)"
+}
+ComputerMouse {
+  translation -6.164459999999996 -19.199500000000004 0.7399803800030953
+  rotation -1.1253815156124154e-06 -1.8366025516427673e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(6)"
+}
+ComputerMouse {
+  translation -6.064579999999998 -19.39530000000001 0.7399803800030953
+  rotation -1.1253815156335756e-06 -1.8366025516591839e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(7)"
+}
+ComputerMouse {
+  translation -5.705870005933315 -20.099299986980633 0.7399835770859099
+  rotation -2.4022817271656073e-05 4.833011386324877e-05 0.9999999985435521 2.0421064224934677
+  name "computertable6vmouse 2(8)"
+}
+ComputerMouse {
+  translation -5.020279999999997 -21.44450000000002 0.7399803800030953
+  rotation -1.1253815156486909e-06 -1.8366025516806972e-06 0.9999999999976803 2.0421064576642474
+  name "computertable6vmouse 2(9)"
+}
+ComputerMouse {
+  translation -6.892999999999996 -17.50580000000001 0.7399803800030953
+  rotation -1.125381515645807e-06 -1.836602551635792e-06 0.9999999999976802 2.042106457664247
+  name "computertable6vmouse 2(5)"
+}
+ComputerMouse {
+  translation -11.6215 -17.8166 0.7399803800030953
+  rotation -7.154296060358008e-07 -1.8366025516986054e-06 0.9999999999980576 2.3986796939008888
+  name "computertable6vmouse 2(2)"
+}
+ComputerMouse {
+  translation -12.1086 -18.347 0.7399803800030953
+  rotation -7.154296060265303e-07 -1.8366025516908362e-06 0.9999999999980576 2.3986796939008888
+  name "computertable6vmouse 2(20)"
+}
+ComputerMouse {
+  translation -12.5415 -18.8183 0.7399803800030953
+  rotation -7.15429606013851e-07 -1.8366025516887375e-06 0.9999999999980576 2.3986796939008888
+  name "computertable6vmouse 2(21)"
+}
+ComputerMouse {
+  translation -13.2723 -19.614 0.7399803800030953
+  rotation -7.154296060080088e-07 -1.8366025517305898e-06 0.9999999999980576 2.3986796939008888
+  name "computertable6vmouse 2(22)"
+}
+ComputerMouse {
+  translation -13.4956 -19.857 0.7399803800030953
+  rotation -7.154296060265945e-07 -1.8366025516743195e-06 0.9999999999980576 2.3986796939008888
+  name "computertable6vmouse 2(23)"
+}
+ComputerMouse {
+  translation -14.125 -20.5423 0.7399803800030953
+  rotation -7.154296060233605e-07 -1.8366025516857049e-06 0.9999999999980576 2.3986796939008888
+  name "computertable6vmouse 2(24)"
+}
+ComputerMouse {
+  translation -12.464599999999999 -16.960500000000007 0.7399803800030953
+  rotation -4.714762026194873e-06 1.836602551607158e-06 -0.9999999999871989 0.7429186939069743
+  name "computertable6vmouse 2(14)"
+}
+ComputerMouse {
+  translation -14.257299999999999 -18.912300000000005 0.7399803800030953
+  rotation -4.714762026229269e-06 1.8366025515604645e-06 -0.9999999999871989 0.7429186939069743
+  name "computertable6vmouse 2(15)"
+}
+ComputerMouse {
+  translation -14.933799999999998 -19.64890000000001 0.7399803800030953
+  rotation -4.7147620263798835e-06 1.8366025517011023e-06 -0.9999999999871989 0.7429186939069743
+  name "computertable6vmouse 2(18)"
+}
+ComputerMouse {
+  translation -15.461599999999999 -20.22350000000001 0.7399803800030953
+  rotation -4.714762026188019e-06 1.8366025516917434e-06 -0.9999999999871989 0.7429186939069743
+  name "computertable6vmouse 2(19)"
+}
+ComputerMouse {
+  translation -13.066799999999999 -17.616100000000007 0.7399803800030953
+  rotation -4.71476202616037e-06 1.8366025515875041e-06 -0.9999999999871989 0.7429186939069744
+  name "computertable6vmouse 2(16)"
+}
+ComputerMouse {
+  translation -13.722799999999998 -18.33030000000001 0.7399803800030953
+  rotation -4.7147620262448826e-06 1.8366025517306086e-06 -0.9999999999871989 0.7429186939069743
+  name "computertable6vmouse 2(17)"
+}
+ComputerMouse {
+  translation -4.558696167148181 -10.791686297050678 0.7399803800030953
+  rotation -8.632203725925089e-07 -1.8366025516638843e-06 0.999999999997941 2.262855561535638
+  name "computertable5 mouse 2"
+}
+ComputerMouse {
+  translation -3.365397439577189 -9.604142887208882 0.7399803800030953
+  rotation -1.1884258416926213e-06 -1.836602551630601e-06 0.9999999999976074 1.992955394570639
+  name "computertable4 mouse 2"
+}
+ComputerMouse {
+  translation -4.528061527148161 -9.149717874699496 0.7399803800030953
+  rotation -8.660335702829969e-06 1.8366025515590214e-06 -0.9999999999608127 0.41794901071112894
+  name "computertable1 mouse 2"
+}
+Keyboard {
+  translation -5.36772 -9.65656 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable2 keyboard 1"
+}
+Keyboard {
+  translation -5.85559 -10.3421 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable2 keyboard 2"
+}
+Keyboard {
+  translation -6.32933 -10.8159 0.8
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 keyboard 1"
+}
+Keyboard {
+  translation -6.8738 -11.3601 0.8
+  rotation 0 0 1 -1.0471996938995747
+  name "computertable3 keyboard 2"
+}
+Keyboard {
+  translation -9.9976 -9.68839 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 keyboard 2(1)"
+}
+Keyboard {
+  translation -10.3115 -8.93077 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 keyboard 2(8)"
+}
+Keyboard {
+  translation -10.6329 -8.1547 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 keyboard 2(9)"
+}
+Keyboard {
+  translation -10.9813 -7.31393 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 keyboard 2(10)"
+}
+Keyboard {
+  translation -11.4021 -6.29764 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 keyboard 2(11)"
+}
+Keyboard {
+  translation -11.7236 -5.52154 0.8
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 keyboard 2(12)"
+}
+Keyboard {
+  translation -11.3182 -10.2355 0.8
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 keyboard 2(2)"
+}
+Keyboard {
+  translation -11.5972 -9.56118 0.8
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 keyboard 2(3)"
+}
+Keyboard {
+  translation -11.9492 -8.7112 0.8
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 keyboard 2(4)"
+}
+Keyboard {
+  translation -12.3394 -7.76883 0.8
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 keyboard 2(5)"
+}
+Keyboard {
+  translation -12.6874 -6.92809 0.8
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 keyboard 2(6)"
+}
+Keyboard {
+  translation -12.9668 -6.25364 0.8
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 keyboard 2(7)"
+}
+Monitor {
+  translation -5.59741 -10.5023 0.74
+  rotation 0 0 1 2.35619
+  name "computertable2 monitor 2"
+}
+Monitor {
+  translation -6.14895 -11.0541 0.74
+  rotation 0 0 1 2.35619
+  name "computertable3 monitor 1"
+}
+Monitor {
+  translation -6.7146 -11.5351 0.74
+  rotation 0 0 1 2.6179896938995744
+  name "computertable3 monitor 2"
+}
+Monitor {
+  translation -10.3144 -9.80051 0.74
+  rotation 0 0 1 0.3926903061004253
+  name "computertable3 monitor 2(2)"
+}
+Monitor {
+  translation -10.5784 -9.16301 0.74
+  rotation 0 0 1 0.3926903061004253
+  name "computertable3 monitor 2(32)"
+}
+Monitor {
+  translation -10.9381 -8.29453 0.74
+  rotation 0 0 1 0.3926903061004253
+  name "computertable3 monitor 2(33)"
+}
+Monitor {
+  translation -11.1871 -7.69398 0.74
+  rotation 0 0 1 0.3926903061004253
+  name "computertable3 monitor 2(34)"
+}
+Monitor {
+  translation -11.654 -6.5668 0.74
+  rotation 0 0 1 0.3926903061004253
+  name "computertable3 monitor 2(35)"
+}
+Monitor {
+  translation -11.9714 -5.79996 0.74
+  rotation 0 0 1 0.3926903061004253
+  name "computertable3 monitor 2(36)"
+}
+Monitor {
+  translation -11.0261 -10.0955 0.74
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 monitor 2(26)"
+}
+Monitor {
+  translation -11.3094 -9.41186 0.74
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 monitor 2(27)"
+}
+Monitor {
+  translation -11.7381 -8.37709 0.74
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 monitor 2(28)"
+}
+Monitor {
+  translation -12.0521 -7.61948 0.74
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 monitor 2(29)"
+}
+Monitor {
+  translation -12.4463 -6.66788 0.74
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 monitor 2(30)"
+}
+Monitor {
+  translation -12.695 -6.06735 0.74
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 monitor 2(31)"
+}
+Monitor {
+  translation -7.97584 -17.6463 0.74
+  rotation 0 0 -1 2.7488956132800118
+  name "computertable3 monitor 2(1)"
+}
+Monitor {
+  translation -7.67735 -18.3667 0.74
+  rotation 0 0 -1 2.7488956132800118
+  name "computertable3 monitor 2(4)"
+}
+Monitor {
+  translation -7.27171 -19.346 0.74
+  rotation 0 0 -1 2.7488956132800118
+  name "computertable3 monitor 2(11)"
+}
+Monitor {
+  translation -7.03823 -19.9093 0.74
+  rotation 0 0 -1 2.7488956132800118
+  name "computertable3 monitor 2(12)"
+}
+Monitor {
+  translation -6.59049 -20.9902 0.74
+  rotation 0 0 -1 2.7488956132800118
+  name "computertable3 monitor 2(13)"
+}
+Monitor {
+  translation -6.34937 -21.5721 0.74
+  rotation 0 0 -1 2.7488956132800118
+  name "computertable3 monitor 2(14)"
+}
+Monitor {
+  translation -6.87356 -18.0337 0.74
+  rotation 0 0 -1 -0.3927003061004253
+  name "computertable3 monitor 2(5)"
+}
+Monitor {
+  translation -6.45645 -19.0408 0.74
+  rotation 0 0 -1 -0.3927003061004253
+  name "computertable3 monitor 2(7)"
+}
+Monitor {
+  translation -6.20385 -19.6505 0.74
+  rotation 0 0 -1 -0.3927003061004253
+  name "computertable3 monitor 2(8)"
+}
+Monitor {
+  translation -5.79822 -20.6298 0.74
+  rotation 0 0 -1 -0.3927003061004253
+  name "computertable3 monitor 2(9)"
+}
+Monitor {
+  translation -5.45382 -21.4614 0.74
+  rotation 0 0 -1 -0.3927003061004253
+  name "computertable3 monitor 2(10)"
+}
+Monitor {
+  translation -7.13379 -17.4058 0.74
+  rotation 0 0 -1 -0.3927003061004253
+  name "computertable3 monitor 2(6)"
+}
+Monitor {
+  translation -15.576 -57.2818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(37)"
+}
+Monitor {
+  translation -15.576 -59.3718 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(41)"
+}
+Monitor {
+  translation -15.576 -61.5218 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(45)"
+}
+Monitor {
+  translation -15.576 -63.8818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(49)"
+}
+Monitor {
+  translation -15.576 -66.4918 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(53)"
+}
+Monitor {
+  translation -16.436 -66.4918 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(54)"
+}
+Monitor {
+  translation -18.856 -64.1018 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(51)"
+}
+Monitor {
+  translation -18.856 -66.7818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(55)"
+}
+Monitor {
+  translation -19.776 -64.1018 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(52)"
+}
+Monitor {
+  translation -19.776 -66.6818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(56)"
+}
+Monitor {
+  translation -16.396 -63.8818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(50)"
+}
+Monitor {
+  translation -18.936 -61.5218 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(47)"
+}
+Monitor {
+  translation -19.806 -61.5218 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(48)"
+}
+Monitor {
+  translation -16.446 -61.5218 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(46)"
+}
+Monitor {
+  translation -18.906 -59.3718 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(43)"
+}
+Monitor {
+  translation -19.686 -59.3718 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(44)"
+}
+Monitor {
+  translation -16.406 -59.3718 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(42)"
+}
+Monitor {
+  translation -18.946 -57.2818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(39)"
+}
+Monitor {
+  translation -19.806 -57.2818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(40)"
+}
+Monitor {
+  translation -16.436 -57.2818 0.74
+  rotation 0 0 -1 -1.5708003061004252
+  name "computertable3 monitor 2(38)"
+}
+Monitor {
+  translation -11.3375 -17.5129 0.74
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 monitor 2(3)"
+}
+Monitor {
+  translation -11.8956 -18.071 0.74
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 monitor 2(17)"
+}
+Monitor {
+  translation -12.6804 -18.8558 0.74
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 monitor 2(22)"
+}
+Monitor {
+  translation -13.1472 -19.3226 0.74
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 monitor 2(23)"
+}
+Monitor {
+  translation -13.9464 -20.1218 0.74
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 monitor 2(24)"
+}
+Monitor {
+  translation -14.5472 -20.7226 0.74
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 monitor 2(25)"
+}
+Monitor {
+  translation -12.0304 -16.82 0.74
+  rotation 0 0 1 2.3561956132800117
+  name "computertable3 monitor 2(15)"
+}
+Monitor {
+  translation -12.7164 -17.506 0.74
+  rotation 0 0 1 2.3561956132800117
+  name "computertable3 monitor 2(16)"
+}
+Monitor {
+  translation -13.3033 -18.0929 0.74
+  rotation 0 0 1 2.3561956132800117
+  name "computertable3 monitor 2(18)"
+}
+Monitor {
+  translation -13.8903 -18.6799 0.74
+  rotation 0 0 1 2.3561956132800117
+  name "computertable3 monitor 2(19)"
+}
+Monitor {
+  translation -14.6402 -19.4298 0.74
+  rotation 0 0 1 2.3561956132800117
+  name "computertable3 monitor 2(20)"
+}
+Monitor {
+  translation -15.1566 -19.9462 0.74
+  rotation 0 0 1 2.3561956132800117
+  name "computertable3 monitor 2(21)"
+}
+Monitor {
+  translation -5.06008 -9.80951 0.75
+  rotation 0 0 1 2.35619
+  name "computertable2 monitor 1"
+}
+ComputerMouse {
+  translation -5.358737692183881 -9.963680213392722 0.7399803800030953
+  rotation -3.3698413591389936e-12 -1.8366025517005974e-06 0.9999999999983135 3.1415889839545232
+  name "computertable2 mouse 1"
+}
+ComputerMouse {
+  translation -5.551125068105851 -10.226392367597096 0.7399803800030953
+  rotation -1.043463338023022e-06 -1.8366025516799432e-06 0.999999999997769 2.10825246009217
+  name "computertable2 mouse 2"
+}
+ComputerMouse {
+  translation -6.315009500786162 -11.087899427601275 0.7399803800030953
+  rotation 9.816101367711896e-07 -1.8366025517129218e-06 0.9999999999978316 -2.1599079484601065
+  name "computertable3 mouse 1"
+}
+ComputerMouse {
+  translation -6.888660000063855 -11.16379999995883 0.7399803800030953
+  rotation 1.0000188005500975e-06 -1.8366025516586488e-06 0.9999999999978134 -2.1443806201729343
+  name "computertable3 mouse 2"
+}
+ComputerMouse {
+  translation -10.216300000000002 -9.419869999999998 0.7399803800030953
+  rotation 3.178306801037028e-07 -1.836602551666653e-06 0.999999999998263 -2.798879693900158
+  name "computertable3 mouse 2(1)"
+}
+ComputerMouse {
+  translation -10.290500000000002 -9.212649999999998 0.7399803800030953
+  rotation 3.1783068008206295e-07 -1.836602551741031e-06 0.999999999998263 -2.798879693900158
+  name "computertable3 mouse 2(8)"
+}
+ComputerMouse {
+  translation -10.569400000000002 -8.430899999999998 0.7399803800030953
+  rotation 3.1783068006225693e-07 -1.8366025517088052e-06 0.999999999998263 -2.798879693900158
+  name "computertable3 mouse 2(9)"
+}
+ComputerMouse {
+  translation -10.881900000000002 -7.554979999999997 0.7399803800030953
+  rotation 3.17830680107832e-07 -1.8366025516779279e-06 0.999999999998263 -2.798879693900158
+  name "computertable3 mouse 2(10)"
+}
+ComputerMouse {
+  translation -11.221500000000002 -6.603679999999997 0.7399803800030953
+  rotation 3.1783068012019383e-07 -1.8366025516843761e-06 0.999999999998263 -2.798879693900158
+  name "computertable3 mouse 2(11)"
+}
+ComputerMouse {
+  translation -11.504000000000001 -5.812489999999998 0.7399803800030953
+  rotation 3.178306800963645e-07 -1.8366025516967282e-06 0.999999999998263 -2.798879693900158
+  name "computertable3 mouse 2(12)"
+}
+ComputerMouse {
+  translation -11.460199999999999 -9.98049 0.7399803800030953
+  rotation -1.06131218035916e-05 -1.8366025515309609e-06 0.9999999999419943 0.3427063061199175
+  name "computertable3 mouse 2(2)"
+}
+ComputerMouse {
+  translation -11.503899999999998 -9.85803 0.7399803800030953
+  rotation -1.0613121803405986e-05 -1.8366025515837545e-06 0.9999999999419943 0.3427063061199174
+  name "computertable3 mouse 2(3)"
+}
+ComputerMouse {
+  translation -12.058399999999999 -8.30394 0.7399803800030953
+  rotation -1.0613121803815042e-05 -1.8366025517168522e-06 0.9999999999419943 0.34270630611991754
+  name "computertable3 mouse 2(4)"
+}
+ComputerMouse {
+  translation -12.135899999999998 -8.08729 0.7399803800030953
+  rotation -1.0613121803808532e-05 -1.8366025515548163e-06 0.9999999999419943 0.3427063061199175
+  name "computertable3 mouse 2(5)"
+}
+ComputerMouse {
+  translation -12.438499999999998 -7.239610000000001 0.7399803800030953
+  rotation -1.0613121803876318e-05 -1.8366025516920136e-06 0.9999999999419943 0.34270630611991754
+  name "computertable3 mouse 2(6)"
+}
+ComputerMouse {
+  translation -12.700599999999998 -6.504950000000001 0.7399803800030953
+  rotation -1.0613121803707804e-05 -1.8366025514001705e-06 0.9999999999419943 0.3427063061199176
+  name "computertable3 mouse 2(7)"
+}
+Table {
+  translation -5.23339 -10.0596 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 2"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -6.51324 -11.3395 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 3"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -12.4036 -17.2232 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 7"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -13.6687 -18.4951 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 8"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+Table {
+  translation -14.9412 -19.7676 0
+  rotation 0 0 1 -0.785395307179586
+  name "computertable 9"
+  trayAppearance VarnishedPine {
+    colorOverride 1 0.98 0.96
+    textureTransform TextureTransform {
+      scale 10 10
+    }
+  }
+}
+WoodenChair {
+  translation -3.6 -4.21 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 1"
+}
+WoodenChair {
+  translation 0.93 -4.21 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 1(1)"
+}
+WoodenChair {
+  translation 0.93 -2.73 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 1(2)"
+}
+WoodenChair {
+  translation 0.93 -1.4 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 1(3)"
+}
+WoodenChair {
+  translation -6.02837 -4.07022 -0.38
+  name "wooden chair 2"
+}
+Table {
+  translation -2.43 0 0
+  name "table(1)"
+}
+WoodenChair {
+  translation -1.78 0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 3"
+}
+WoodenChair {
+  translation -1.78 -0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 4"
+}
+WoodenChair {
+  translation -3.05 0.51 0
+  name "wooden chair 5"
+}
+WoodenChair {
+  translation -3.05 -0.51 0
+  name "wooden chair 6"
+}
+WoodenChair {
+  translation -4.67475 -8.70657 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable1 chair 2"
+}
+WoodenChair {
+  translation -5.99701 -10.0287 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable2 chair 2"
+}
+WoodenChair {
+  translation -7.093 -11.1246 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 chair 2"
+}
+WoodenChair {
+  translation -9.78349 -9.63485 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 chair 2(1)"
+}
+WoodenChair {
+  translation -11.4653 -10.3316 0
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 chair 2(5)"
+}
+WoodenChair {
+  translation -11.7332 -9.68485 0
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 chair 2(6)"
+}
+WoodenChair {
+  translation -12.204 -8.54848 0
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 chair 2(7)"
+}
+WoodenChair {
+  translation -12.4488 -7.95717 0
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 chair 2(8)"
+}
+WoodenChair {
+  translation -12.8736 -6.93167 0
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 chair 2(9)"
+}
+WoodenChair {
+  translation -13.1297 -6.31264 0
+  rotation 0 0 1 0.39269500107916055
+  name "computertable3 chair 2(10)"
+}
+WoodenChair {
+  translation -10.0705 -8.94192 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 chair 2(2)"
+}
+WoodenChair {
+  translation -10.5718 -7.73165 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 chair 2(3)"
+}
+WoodenChair {
+  translation -10.8169 -7.14037 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 chair 2(4)"
+}
+WoodenChair {
+  translation -11.2264 -6.1518 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 chair 2(11)"
+}
+WoodenChair {
+  translation -11.4403 -5.6344 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable3 chair 2(12)"
+}
+WoodenChair {
+  translation -4.03193 -8.09629 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable1 chair 1"
+}
+WoodenChair {
+  translation -2.56111 -9.56697 0
+  rotation 0 0 1 2.3561956132800117
+  name "computertable4 chair 1"
+}
+WoodenChair {
+  translation 0.811801 -12.9398 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk chair 1 "
+}
+WoodenChair {
+  translation 0.111801 -12.9398 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk chair 2"
+}
+WoodenChair {
+  translation -11.4881 -41.4098 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk chair 2(1)"
+}
+WoodenChair {
+  translation -0.0480823 -70.8298 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk chair 2(26)"
+}
+WoodenChair {
+  translation -0.718082 -70.8298 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk chair 2(35)"
+}
+WoodenChair {
+  translation -18.3981 -41.4098 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk chair 2(14)"
+}
+WoodenChair {
+  translation -18.3981 -45.6498 0
+  rotation 0 0 1 1.5708003061004252
+  name "wall desk chair 2(19)"
+}
+WoodenChair {
+  translation -11.4881 -39.4798 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(2)"
+}
+WoodenChair {
+  translation -0.65822 -66.7398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(25)"
+}
+WoodenChair {
+  translation -0.08822 -66.7398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(34)"
+}
+WoodenChair {
+  translation -18.5781 -39.5298 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(13)"
+}
+WoodenChair {
+  translation -19.4381 -36.0798 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(20)"
+}
+WoodenChair {
+  translation -18.5781 -43.8498 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(21)"
+}
+WoodenChair {
+  translation -18.9481 -56.7398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(36)"
+}
+WoodenChair {
+  translation -18.9481 -58.9398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(48)"
+}
+WoodenChair {
+  translation -18.9481 -61.1398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(49)"
+}
+WoodenChair {
+  translation -18.9481 -63.5298 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(50)"
+}
+WoodenChair {
+  translation -18.9481 -65.8598 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(51)"
+}
+WoodenChair {
+  translation -19.8381 -56.7398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(37)"
+}
+WoodenChair {
+  translation -19.8381 -58.9098 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(52)"
+}
+WoodenChair {
+  translation -19.8381 -61.0398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(53)"
+}
+WoodenChair {
+  translation -19.8381 -63.5298 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(54)"
+}
+WoodenChair {
+  translation -19.8381 -65.8798 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(55)"
+}
+WoodenChair {
+  translation -16.4681 -56.7398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(38)"
+}
+WoodenChair {
+  translation -15.7281 -56.7398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(39)"
+}
+WoodenChair {
+  translation -15.7281 -58.7898 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(40)"
+}
+WoodenChair {
+  translation -15.7281 -60.9998 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(43)"
+}
+WoodenChair {
+  translation -15.7281 -63.1498 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(44)"
+}
+WoodenChair {
+  translation -15.7281 -65.8398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(46)"
+}
+WoodenChair {
+  translation -16.4781 -65.8398 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(47)"
+}
+WoodenChair {
+  translation -16.4281 -58.7898 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(41)"
+}
+WoodenChair {
+  translation -16.4281 -60.9698 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(42)"
+}
+WoodenChair {
+  translation -16.4281 -63.1498 0
+  rotation 0 0 1 -1.5708003061004252
+  name "wall desk chair 2(45)"
+}
+WoodenChair {
+  translation -10.9481 -39.9798 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(3)"
+}
+WoodenChair {
+  translation -17.8481 -39.9798 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(7)"
+}
+WoodenChair {
+  translation -17.8481 -40.6398 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(8)"
+}
+WoodenChair {
+  translation -17.8481 -44.3298 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(9)"
+}
+WoodenChair {
+  translation -17.8481 -45.0698 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(10)"
+}
+WoodenChair {
+  translation -18.9281 -36.6898 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(11)"
+}
+WoodenChair {
+  translation -18.9281 -37.2798 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(12)"
+}
+WoodenChair {
+  translation -12.1481 -39.9798 0
+  name "wall desk chair 2(5)"
+}
+WoodenChair {
+  translation -1.1981 -70.2698 0
+  name "wall desk chair 2(27)"
+}
+WoodenChair {
+  translation -1.1981 -69.4198 0
+  name "wall desk chair 2(31)"
+}
+WoodenChair {
+  translation -1.1981 -68.4198 0
+  name "wall desk chair 2(32)"
+}
+WoodenChair {
+  translation -1.1981 -67.5198 0
+  name "wall desk chair 2(33)"
+}
+WoodenChair {
+  translation -19.1181 -39.9798 0
+  name "wall desk chair 2(15)"
+}
+WoodenChair {
+  translation -19.9181 -36.6698 0
+  name "wall desk chair 2(22)"
+}
+WoodenChair {
+  translation -19.9181 -37.4698 0
+  name "wall desk chair 2(23)"
+}
+WoodenChair {
+  translation -19.1181 -40.6498 0
+  name "wall desk chair 2(16)"
+}
+WoodenChair {
+  translation -19.1181 -44.3198 0
+  name "wall desk chair 2(17)"
+}
+WoodenChair {
+  translation -19.1181 -45.1298 0
+  name "wall desk chair 2(18)"
+}
+WoodenChair {
+  translation -12.1481 -40.8398 0
+  name "wall desk chair 2(6)"
+}
+WoodenChair {
+  translation -10.9481 -40.6898 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(4)"
+}
+WoodenChair {
+  translation 0.6019 -70.0598 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(24)"
+}
+WoodenChair {
+  translation 0.6019 -69.1798 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(28)"
+}
+WoodenChair {
+  translation 0.6019 -68.4098 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(29)"
+}
+WoodenChair {
+  translation 0.6019 -67.4998 0
+  rotation 0 0 1 -3.141592653589793
+  name "wall desk chair 2(30)"
+}
+WoodenChair {
+  translation 0.111796 -11.9198 0
+  rotation 0 0 1 -1.5707996938995747
+  name "wall desk chair 3"
+}
+WoodenChair {
+  translation 0.621796 -11.9198 0
+  rotation 0 0 1 -1.5707996938995747
+  name "wall desk chair 4"
+}
+WoodenChair {
+  translation -3.77025 -10.7762 0
+  rotation 0 0 1 2.3561956132800117
+  name "computertable5 chair 1"
+}
+WoodenChair {
+  translation -4.34296 -11.3488 0
+  rotation 0 0 1 2.3561956132800117
+  name "computertable5 chair 2"
+}
+WoodenChair {
+  translation -5.08544 -12.0913 0
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 chair 1"
+}
+WoodenChair {
+  translation -5.62989 -12.636 0
+  rotation 0 0 1 2.3561956132800117
+  name "computertable6 chair 2"
+}
+WoodenChair {
+  translation -8.55211 -17.886 0
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 chair 2(1)"
+}
+WoodenChair {
+  translation -10.7522 -18.1374 0
+  rotation 0 0 1 2.3561903061004252
+  name "computertable6 chair 2(13)"
+}
+WoodenChair {
+  translation -11.2898 -18.675 0
+  rotation 0 0 1 2.3561903061004252
+  name "computertable6 chair 2(14)"
+}
+WoodenChair {
+  translation -12.103 -19.4882 0
+  rotation 0 0 1 2.3561903061004252
+  name "computertable6 chair 2(15)"
+}
+WoodenChair {
+  translation -12.5273 -19.9125 0
+  rotation 0 0 1 2.3561903061004252
+  name "computertable6 chair 2(16)"
+}
+WoodenChair {
+  translation -13.3122 -20.6973 0
+  rotation 0 0 1 2.3561903061004252
+  name "computertable6 chair 2(17)"
+}
+WoodenChair {
+  translation -13.8992 -21.2843 0
+  rotation 0 0 1 2.3561903061004252
+  name "computertable6 chair 2(18)"
+}
+WoodenChair {
+  translation -15.4973 -19.6862 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 chair 2(19)"
+}
+WoodenChair {
+  translation -14.974 -19.1629 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 chair 2(20)"
+}
+WoodenChair {
+  translation -14.2175 -18.4064 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 chair 2(21)"
+}
+WoodenChair {
+  translation -13.7365 -17.9254 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 chair 2(22)"
+}
+WoodenChair {
+  translation -13.0222 -17.2111 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 chair 2(23)"
+}
+WoodenChair {
+  translation -12.5836 -16.7725 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable6 chair 2(24)"
+}
+WoodenChair {
+  translation -6.36253 -16.979 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 chair 2(3)"
+}
+WoodenChair {
+  translation -6.04108 -17.7551 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 chair 2(4)"
+}
+WoodenChair {
+  translation -5.65845 -18.6795 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 chair 2(5)"
+}
+WoodenChair {
+  translation -5.39055 -19.326 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 chair 2(6)"
+}
+WoodenChair {
+  translation -4.99638 -20.2774 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 chair 2(7)"
+}
+WoodenChair {
+  translation -4.70171 -20.9886 0
+  rotation 0 0 1 -2.7488996938995744
+  name "computertable6 chair 2(8)"
+}
+WoodenChair {
+  translation -8.17326 -18.8008 0
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 chair 2(2)"
+}
+WoodenChair {
+  translation -7.81356 -19.6695 0
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 chair 2(9)"
+}
+WoodenChair {
+  translation -7.51123 -20.3995 0
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 chair 2(10)"
+}
+WoodenChair {
+  translation -7.15533 -21.2585 0
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 chair 2(11)"
+}
+WoodenChair {
+  translation -6.83387 -22.0346 0
+  rotation 0 0 1 0.3927003061004253
+  name "computertable6 chair 2(12)"
+}
+WoodenChair {
+  translation -3.1126 -10.1042 0
+  rotation 0 0 1 2.3561956132800117
+  name "computertable4 chair 2"
+}
+WoodenChair {
+  translation -5.43911 -9.50346 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable2 chair 1"
+}
+WoodenChair {
+  translation -6.62703 -10.6913 0
+  rotation 0 0 1 -0.7853996938995746
+  name "computertable3 chair 1"
+}
+Wall {
+  translation 1.4 -15 0.05
+  rotation 0 0 -1 0
+  name "wall north back wall"
+  size 0.1 33 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -21.09 -22.15 0.05
+  rotation 0 0 -1 0
+  name "wall south"
+  size 0.1 47.1 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -21.09 -61.57 0.05
+  rotation 0 0 -1 0
+  name "scholarstation wall 2"
+  size 0.1 13 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -21.09 -72.96 0.05
+  rotation 0 0 -1 0
+  name "scholarstation wall 2(1)"
+  size 0.1 10.2 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation 1.36 -80.22 0.01
+  rotation 0 0 -1 0
+  name "scholarstation wall 2(2)"
+  size 0.1 19 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -14.39 -61.57 0.05
+  rotation 0 0 -1 0
+  name "scholarsstation wall 3"
+  size 0.1 13 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Wall {
+  translation -9.9 1.48 0.05
+  name "wall west"
+  size 22.3 0.1 2.5
+  appearance PaintedWood {
+    colorOverride 1 0.98 0.96
+  }
+}
+Table {
+  translation -4.88 0 0
+}
+WoodenChair {
+  translation -4.24 0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 7"
+}
+WoodenChair {
+  translation -4.24 -0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 8"
+}
+WoodenChair {
+  translation -5.5 0.51 0
+  name "wooden chair 9"
+}
+WoodenChair {
+  translation -5.5 -0.51 0
+  name "wooden chair 10"
+}
+Table {
+  translation -7.23 0 0
+  name "table(2)"
+}
+Table {
+  translation -0.41 -68.84 0
+  name "103studyroom desk"
+  size 1.5 3.8 0.74
+}
+WoodenChair {
+  translation -6.6 0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 11"
+}
+WoodenChair {
+  translation -6.6 -0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 12"
+}
+WoodenChair {
+  translation -7.88 0.51 0
+  name "wooden chair 13"
+}
+WoodenChair {
+  translation -7.88 -0.51 0
+  name "wooden chair 14"
+}
+Table {
+  translation -9.81 0 0
+  name "table(3)"
+}
+WoodenChair {
+  translation -9.17 0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 15"
+}
+WoodenChair {
+  translation -9.17 -0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 16"
+}
+WoodenChair {
+  translation -10.46 0.51 0
+  name "wooden chair 17"
+}
+WoodenChair {
+  translation -10.5 -0.51 0
+  name "wooden chair 18"
+}
+Table {
+  translation -12.21 0 0
+  name "table(4)"
+}
+Table {
+  translation -20.29 -5.84 0
+  name "studyroom1 table"
+}
+WallPlug {
+  translation -8.15696e-08 1.43 0.2
+  rotation 0 0 1 -1.5707953071795862
+}
+Table {
+  translation -20.29 -11.21 0
+  name "studyroom2 table"
+}
+Table {
+  translation -20.29 -16.26 0
+  name "studyroom3 table"
+}
+Table {
+  translation -20.29 -21.41 0
+  name "studyroom4 table"
+}
+Table {
+  translation -20.29 -26.4 0
+  name "studyroom5 table"
+}
+WoodenChair {
+  translation -11.56 0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 19"
+}
+WoodenChair {
+  translation -11.6 -0.51 0
+  rotation 0 0 1 3.141592653589793
+  name "wooden chair 20"
+}
+WoodenChair {
+  translation -12.87 0.51 0
+  name "wooden chair 21"
+}
+WoodenChair {
+  translation -12.9 -0.51 0
+  name "wooden chair 22"
+}
+WoodenChair {
+  translation -19.76 -6.22 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom1 chair2"
+}
+WoodenChair {
+  translation -19.76 -11.62 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom2 chair2"
+}
+WoodenChair {
+  translation -19.76 -16.7 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom3 chair2"
+}
+WoodenChair {
+  translation -19.76 -21.83 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom4 chair2"
+}
+WoodenChair {
+  translation -19.76 -26.78 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom5 chair2"
+}
+WoodenChair {
+  translation -19.76 -5.4 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom1 chair3"
+}
+WoodenChair {
+  translation -19.76 -10.84 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom2 chair3"
+}
+WoodenChair {
+  translation -19.76 -15.86 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom3 chair3"
+}
+WoodenChair {
+  translation -19.76 -21.09 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom4 chair3"
+}
+WoodenChair {
+  translation -19.76 -26.1 0
+  rotation 0 0 1 3.141592653589793
+  name "studyroom5 chair3"
+}
+WoodenChair {
+  translation -20.32 -4.94 0
+  rotation 0 0 1 -1.5707950010791611
+  name "studyroom1 chair4"
+}
+WoodenChair {
+  translation -20.32 -10.17 0
+  rotation 0 0 1 -1.5707950010791611
+  name "studyroom2 chair4"
+}
+WoodenChair {
+  translation -20.32 -15.28 0
+  rotation 0 0 1 -1.5707950010791611
+  name "studyroom3 chair4"
+}
+WoodenChair {
+  translation -20.32 -20.46 0
+  rotation 0 0 1 -1.5707950010791611
+  name "studyroom4 chair4"
+}
+WoodenChair {
+  translation -20.32 -25.39 0
+  rotation 0 0 1 -1.5707950010791611
+  name "studyroom5 chair4"
+}
+WoodenChair {
+  translation -20.32 -6.77 0
+  rotation 0 0 1 1.570795613280012
+  name "studyroom1 chair1"
+}
+WoodenChair {
+  translation -20.32 -12.13 0
+  rotation 0 0 1 1.570795613280012
+  name "studyroom2 chair1"
+}
+WoodenChair {
+  translation -20.32 -17.22 0
+  rotation 0 0 1 1.570795613280012
+  name "studyroom3 chair1"
+}
+WoodenChair {
+  translation -20.32 -22.38 0
+  rotation 0 0 1 1.570795613280012
+  name "studyroom4 chair1"
+}
+WoodenChair {
+  translation -20.32 -27.27 0
+  rotation 0 0 1 1.570795613280012
+  name "studyroom5 chair1"
+}
+RoundTable {
+  translation -4.91 -4.19 0
+}
+Window {
+  translation -18.33 -7.48 0
+  name "studyroom1 window2"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -4.41 0
+  name "studyroom1 window3"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -9.48 0
+  name "studyroom2 window3"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -17.71 0
+  name "studyroom3 window2"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -12.59 0
+  name "studyroom2 window2"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -14.62 0
+  name "studyroom3 window"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -19.77 0
+  name "studyroom4 window3"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -24.95 0
+  name "studyroom5 window3"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -22.91 0
+  name "studyroom4 window2"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -18.33 -28.09 0
+  name "studyroom5 window2"
+  size 0.2 2.1 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -19.58 -8.35 0
+  rotation 0 0 1 -1.5707996938995747
+  name "studyroom1 window1"
+  size 0.2 2.9 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -19.58 -3.47 0
+  rotation 0 0 1 -1.5707996938995747
+  name "studyroom1 window4"
+  size 0.2 2.9 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -19.58 -13.5 0
+  rotation 0 0 1 -1.5707996938995747
+  name "studyroom2 window1"
+  size 0.2 2.9 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -19.58 -18.59 0
+  rotation 0 0 1 -1.5707996938995747
+  name "studyroom3 window1"
+  size 0.2 2.9 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -19.58 -23.78 0
+  rotation 0 0 1 -1.5707996938995747
+  name "studyroom4 window1"
+  size 0.2 2.9 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Window {
+  translation -19.58 -28.95 0
+  rotation 0 0 1 -1.5707996938995747
+  name "studyroom5 window1"
+  size 0.2 2.9 2.4
+  glassTransparency 0.9
+  frameSize 0.1 0.02 0.01
+  windowSillSize 0 0
+  wallAppearance NULL
+  frameAppearance NULL
+}
+Blackboard {
+  translation -19.77 -8.19 1.44
+  rotation 0 0 1 1.5708003061004252
+  name "studyroom1 blackboard"
+}
+Blackboard {
+  translation -19.77 -13.33 1.44
+  rotation 0 0 1 1.5708003061004252
+  name "studyroom2 blackboard"
+}
+Blackboard {
+  translation -19.77 -18.4 1.44
+  rotation 0 0 1 1.5708003061004252
+  name "studyroom3 blackboard"
+}
+Blackboard {
+  translation -19.77 -23.61 1.44
+  rotation 0 0 1 1.5708003061004252
+  name "studyroom4 blackboard"
+}
+Blackboard {
+  translation -19.77 -28.72 1.44
+  rotation 0 0 1 1.5708003061004252
+  name "studyroom5 blackboard"
+}
+Blackboard {
+  translation 1.29013 -68.74 1.44
+  rotation 0 0 1 3.141592653589793
+  name "studyroom5 blackboard(1)"
+}
+Door {
+  hidden translation_5 0.0011776047812587231 5.567534906542049e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.0003738828870812637
+  translation -2.47 -36.5 0
+  name "fbathroom door"
+  position -0.0003738828866517803
+}
+Door {
+  hidden translation_5 0.001177604781258501 5.5675349065309465e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -0.9999999999999999 0.0003738828870812637
+  translation -16.9 -43.41 0
+  name "123studyroom door"
+  position -0.0003738828866513102
+}
+Door {
+  hidden translation_5 0.0011065603903828158 3.341318397498405e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.00022432977369105
+  translation -10.48 -42.14 0
+  name "123studyroom door(1)"
+  position -0.0003738828866498877
+}
+Door {
+  hidden translation_5 0.0011776047812586121 5.567534906542049e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.0003738828870812637
+  translation -18.18 -55.1 0
+  rotation 0 0 1 -1.5707996938995747
+  name "scholarsstation door 1"
+  position -0.0003738828866516511
+}
+Door {
+  hidden translation_5 0.0010710394274472679 2.2278112067897204e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.00014955318802608846
+  translation -17.19 -55.1 0
+  rotation 0 0 1 -1.5707996938995747
+  name "scholarsstation door 2"
+  position -0.00037388288665105013
+}
+Door {
+  hidden translation_5 0.001177604781258501 5.5675349065364976e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.0003738828870812637
+  translation -18.2 -34.5 0
+  rotation 0 0 1 1.5708
+  name "125studyroom door"
+  position -0.00037388288665139214
+}
+Door {
+  hidden translation_5 0.00107103942744749 2.2278112068452316e-05 -4.440892098500626e-16
+  hidden rotation_5 0 0 -1 0.00014955317911776836
+  translation -2.47 -60.27 0.08
+  name "fbathroom door(1)"
+  position -0.276285655950372
+}
+Door {
+  hidden translation_4 0.0010845176086958785 2.6503580763503898e-05 2.220446049250313e-16
+  hidden rotation_4 0 0 -1 0.00017792684091573417
+  translation -1.19 -89.7 0.01
+  rotation 0 0 1 -1.5708003061004252
+  name "fbathroom door(4)"
+  position -0.05507412313891769
+  frameHeight 4
+}
+Door {
+  hidden translation_5 0.0010710394274473511 2.2278112067952716e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.00014955318802608846
+  translation -2.47 -69.04 0.05
+  name "fbathroom door(2)"
+  position -0.00037388288665136075
+}
+Door {
+  hidden translation_5 0.0011776047812590007 5.5675349065476e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.0003738828870812637
+  translation 1.43 -45.99 0
+  name "entrance door 1"
+  position -0.00037388288665232184
+}
+Door {
+  hidden translation_5 0.0011776047812589174 5.567534906553151e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.0003738828870812637
+  translation 1.43 -47 0
+  name "entrance door 2"
+  position -0.0003738828866523144
+}
+Door {
+  hidden translation_5 0.001177604781258973 5.5675349065476e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -0.9999999999999999 0.0003738828870812637
+  translation 1.43 -47.99 0
+  name "entrance door 3"
+  position -0.0003738828866522473
+}
+Door {
+  hidden translation_5 0.0011776047812589452 5.5675349065476e-05 3.3306690738754696e-16
+  hidden rotation_5 0 0 -1 0.0003738828870812637
+  translation 1.43 -48.98 0
+  name "entrance door 4"
+  position -0.0003738828866522934
+}
+Door {
+  hidden translation_5 0.0011065604262217033 3.3413195208331636e-05 2.220446049250313e-16
+  hidden rotation_5 0 0 -1 0.00022432981130395425
+  translation 1.43 -49.95 0
+  name "entrance door 5"
+  position -0.00022432981067224334
+}
+Door {
+  hidden translation_5 0.0011776047592803596 5.5675342180150356e-05 5.551115123125783e-16
+  hidden rotation_5 0 0 -0.9999999999999999 0.00037388284075798723
+  translation 1.43 -50.9 0
+  name "entrance door 6"
+  position -0.000373882840387033
+}
+Door {
+  hidden translation_4 0.0011776012865480495 3.6981205168262754e-05 3.3306690738754696e-16
+  hidden rotation_4 0 0 -1 0.0003738828870812637
+  translation -0.46 -32.11 0
+  name "fbathroom toilet door 1"
+  size 0.1 1 2
+  position -0.00037388288665110114
+}
+Door {
+  hidden translation_4 0.0012131231764169886 4.436947241259759e-05 6.661338147750939e-16
+  hidden rotation_4 0 0 -1 0.00044865940951377967
+  translation -0.46 -33.18 0
+  name "fbathroom toilet door 1(1)"
+  size 0.1 1 2
+  position -0.0004486594093711039
+}
+Door {
+  hidden translation_4 0.0012131231764169748 4.436947241259759e-05 6.661338147750939e-16
+  hidden rotation_4 0 0 -0.9999999999999999 0.00044865940951377967
+  translation -0.46 -34.26 0
+  name "fbathroom toilet door 1(2)"
+  size 0.1 1 2
+  position -0.00044865940937109097
+}
+Door {
+  hidden translation_4 0.001213123176416822 4.436947241259759e-05 6.661338147750939e-16
+  hidden rotation_4 0 0 -1 0.00044865940951377967
+  translation -0.46 -35.33 0
+  name "fbathroom toilet door 1(3)"
+  size 0.1 1 2
+  position -0.00044865940937078636
+}
+Door {
+  hidden translation_4 0.001106559132286855 2.2196695421750068e-05 4.440892098500626e-16
+  hidden rotation_4 0 0 -0.9999999999999999 0.00022432976973179656
+  translation -0.46 -57.91 0
+  name "fbathroom toilet door 1(4)"
+  size 0.1 1 2
+  position -0.0004486594093697143
+}
+Door {
+  hidden translation_4 0.001106559132286855 2.2196695421750068e-05 4.440892098500626e-16
+  hidden rotation_4 0 0 -1 0.00022432976973179656
+  translation -0.46 -58.97 0
+  name "fbathroom toilet door 1(5)"
+  size 0.1 1 2
+  position -0.00044865940936971555
+}
+Door {
+  hidden translation_4 0.0011065591322869522 2.219669542180558e-05 4.440892098500626e-16
+  hidden rotation_4 0 0 -1 0.00022432976973179656
+  translation -0.46 -60.04 0
+  name "fbathroom toilet door 1(6)"
+  size 0.1 1 2
+  position -0.00044865940936991233
+}
+Door {
+  hidden translation_4 0.0011065591322869384 2.219669542180558e-05 4.440892098500626e-16
+  hidden rotation_4 0 0 -0.9999999999999999 0.00022432976973179656
+  translation -0.46 -61.15 0
+  name "fbathroom toilet door 1(7)"
+  size 0.1 1 2
+  position -0.00044865940936991504
+}
+Toilet {
+  translation 0.67 -32.06 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1"
+}
+Toilet {
+  translation 0.67 -33.32 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1(1)"
+}
+Toilet {
+  translation 0.67 -34.37 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1(2)"
+}
+Toilet {
+  translation 0.67 -35.37 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1(3)"
+}
+Toilet {
+  translation 0.67 -57.81 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1(4)"
+}
+Toilet {
+  translation 0.67 -59.01 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1(5)"
+}
+Toilet {
+  translation 0.67 -60.01 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1(6)"
+}
+Toilet {
+  translation 0.67 -61.2 0
+  rotation 0 0 1 -3.141592653589793
+  name "fbathroom toilet 1(7)"
+}
+StraightStairs {
+  translation -21.09 -47.31 0
+  rotation 0 0 1 3.141592653589793
+}
+StraightStairs {
+  translation -21.0898 -48.59 0
+  rotation 0 0 1 3.14
+  name "straight stairs(1)"
+}
+Table {
+  translation -9.04 -63.31 0.05
+  name "circulationdesk"
+  size 1 11 0.74
+  feetSize 1 0.1
+  frameThickness 0.7
+}
+Table {
+  translation -10.05 -57.34 0.05
+  rotation 0 0 1 1.5708
+  name "circulationdesk(1)"
+  size 1 3 0.74
+  feetSize 1 0.1
+  frameThickness 0.7
+}
+Table {
+  translation -10.05 -68.3 0.05
+  rotation 0 0 1 1.5708
+  name "circulationdesk(2)"
+  size 1 3 0.74
+  feetSize 1 0.1
+  frameThickness 0.7
+}
+Mirror {
+  translation -2.47 -33.83 1.91
+  rotation 0 1 0 1.5708
+  width 0.8
+  height 1.3
+}
+Mirror {
+  translation -2.46 -63.27 2.01
+  rotation 0 1 0 1.5708
+  name "mirror(1)"
+  width 0.8
+  height 1.3
+}
+WaterBottle {
+  translation -5.745490624177037 -4.148589448139148 0.7579018999469368
+  rotation -2.871468023013626e-05 1.8291450501543464e-05 0.9999999994204452 8.0818666488514e-06
+}
