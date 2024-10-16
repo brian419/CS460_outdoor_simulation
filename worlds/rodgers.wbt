@@ -28,7 +28,7 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 
 WorldInfo {
   info [
-    "Sample of how the indoor objects can be placed"
+    "model of rodgers library"
   ]
   basicTimeStep 16
 }
