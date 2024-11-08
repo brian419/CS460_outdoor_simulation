@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>indoor_simulation</name>
+  <name>outdoor_simulation</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="json10@crimson.ua.edu">ubuntu</maintainer>
@@ -14,6 +14,6 @@
 
   <export>
     <build_type>ament_python</build_type>
-    <launchfile>launch/indoor_launch.py</launchfile>
+    <launchfile>launch/outdoor_launch.py</launchfile>
   </export>
 </package>
